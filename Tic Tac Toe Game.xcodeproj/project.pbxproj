@@ -16,6 +16,10 @@
 		08D836B02754D0A5000C11D9 /* Tic_Tac_Toe_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D836AF2754D0A5000C11D9 /* Tic_Tac_Toe_GameTests.swift */; };
 		08D836BA2754D0A5000C11D9 /* Tic_Tac_Toe_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D836B92754D0A5000C11D9 /* Tic_Tac_Toe_GameUITests.swift */; };
 		08D836BC2754D0A5000C11D9 /* Tic_Tac_Toe_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D836BB2754D0A5000C11D9 /* Tic_Tac_Toe_GameUITestsLaunchTests.swift */; };
+		08D836CD2754ECA8000C11D9 /* Untitledtictactoe.png in Resources */ = {isa = PBXBuildFile; fileRef = 08D836CC2754ECA8000C11D9 /* Untitledtictactoe.png */; };
+		08D836D12754F4E4000C11D9 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 08D836D02754F4E4000C11D9 /* Untitled.png */; };
+		08D836D32755021F000C11D9 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D836D22755021F000C11D9 /* PlayerViewController.swift */; };
+		08D836D527550643000C11D9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D836D427550643000C11D9 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		08D836B52754D0A5000C11D9 /* Tic Tac Toe GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac Toe GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D836B92754D0A5000C11D9 /* Tic_Tac_Toe_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_Toe_GameUITests.swift; sourceTree = "<group>"; };
 		08D836BB2754D0A5000C11D9 /* Tic_Tac_Toe_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_Toe_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		08D836CC2754ECA8000C11D9 /* Untitledtictactoe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Untitledtictactoe.png; path = ../../../Downloads/Untitledtictactoe.png; sourceTree = "<group>"; };
+		08D836D02754F4E4000C11D9 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Untitled.png; path = ../../../Downloads/Untitled.png; sourceTree = "<group>"; };
+		08D836D22755021F000C11D9 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		08D836D427550643000C11D9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +111,11 @@
 				08D8369A2754D091000C11D9 /* SceneDelegate.swift */,
 				08D8369C2754D091000C11D9 /* ViewController.swift */,
 				08D8369E2754D091000C11D9 /* Main.storyboard */,
+				08D836D427550643000C11D9 /* GameViewController.swift */,
+				08D836D22755021F000C11D9 /* PlayerViewController.swift */,
 				08D836A12754D0A3000C11D9 /* Assets.xcassets */,
+				08D836D02754F4E4000C11D9 /* Untitled.png */,
+				08D836CC2754ECA8000C11D9 /* Untitledtictactoe.png */,
 				08D836A32754D0A3000C11D9 /* LaunchScreen.storyboard */,
 				08D836A62754D0A3000C11D9 /* Info.plist */,
 			);
@@ -231,8 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D836CD2754ECA8000C11D9 /* Untitledtictactoe.png in Resources */,
 				08D836A52754D0A3000C11D9 /* LaunchScreen.storyboard in Resources */,
 				08D836A22754D0A3000C11D9 /* Assets.xcassets in Resources */,
+				08D836D12754F4E4000C11D9 /* Untitled.png in Resources */,
 				08D836A02754D091000C11D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D836D527550643000C11D9 /* GameViewController.swift in Sources */,
 				08D8369D2754D091000C11D9 /* ViewController.swift in Sources */,
+				08D836D32755021F000C11D9 /* PlayerViewController.swift in Sources */,
 				08D836992754D091000C11D9 /* AppDelegate.swift in Sources */,
 				08D8369B2754D091000C11D9 /* SceneDelegate.swift in Sources */,
 			);
