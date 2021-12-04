@@ -29,7 +29,7 @@ class PlayerViewController: UIViewController {
         performSegue(withIdentifier: segueToGameViewId, sender: self)
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         if segue.identifier == segueToGameViewId {
             let destinationViewController = segue.destination as! GameViewController
             
